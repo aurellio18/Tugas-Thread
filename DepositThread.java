@@ -10,7 +10,7 @@ public class DepositThread extends Thread {
     float amount;
 
     /**
-     * 
+     * constructor
      * @param savingsAccount
      * @param amount
      */

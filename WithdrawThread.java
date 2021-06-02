@@ -10,7 +10,7 @@ public class WithdrawThread extends Thread {
     float amount;
 
     /**
-     * 
+     * constructor
      * @param savingsAccount
      * @param amount
      */

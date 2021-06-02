@@ -1,5 +1,5 @@
 /**
- * Class SavingsAccount
+ * Class SavingsAccount template untuk membuat akun baru yang berisikan balance dari nasabah
  * 
  * @author Group 5 - PBO 02
  * @version 02/06/2021
@@ -9,7 +9,7 @@ public class SavingsAccount {
     private float balance;
 
     /**
-     * Constructor
+     * Constructor yang dimana value dari balance akan di save
      * 
      * @param balance
      */
@@ -18,7 +18,7 @@ public class SavingsAccount {
     }
 
     /**
-     * 
+     * Merupakan method untuk proses pengeluaran uang dari balance
      * @param anAmount
      */
     public void withdraw(float anAmount) {
@@ -38,7 +38,7 @@ public class SavingsAccount {
     }
 
     /**
-     * 
+     * Merupakan method untuk proses pemasukkan uang dari balance
      * @param anAmount
      */
     public void deposit(float anAmount) {
@@ -51,7 +51,7 @@ public class SavingsAccount {
     }
 
     /**
-     * 
+     * Berfungsi untuk menampilkan value dari balance
      * @return balance
      */
     public float getBalance() {

@@ -1,5 +1,5 @@
 /**
- * Class CobaThread
+ * Class CobaThread berfungsi untuk menjalankan program dan mengeluarkan current balance
  * 
  * @author Group 5 - PBO 02
  * @version 02/06/2021
