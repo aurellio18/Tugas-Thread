@@ -22,10 +22,16 @@ public class SavingsAccount
         if (anAmount<0.0){
         throw new IllegalArgumentException("Withdraw amount negative");
         }
+        /**
+         * synchronized(this) {
+        if (anAmount<=balance){balance = balance - anAmount;}
+        }
+
+         */
         if (anAmount<=balance) {
             synchronized(this){balance = balance - anAmount;}
         }
-        
+                
     }
 
 

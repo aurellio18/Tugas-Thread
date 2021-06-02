@@ -1,7 +1,17 @@
-//pembuatan thread dengan meng-implement Runnable
+/**
+ *  @author Group 5 - PBO 02
+ * @version 02/06/2021
+ * Class CobaThread
+ */
+
 class WithdrawThread extends Thread{  
 	SavingsAccount savingsAccount;
 	float amount;
+	/**
+	 * 
+	 * @param savingsAccount
+	 * @param amount
+	 */
 	WithdrawThread(SavingsAccount savingsAccount, float amount){
 		this.savingsAccount = savingsAccount;
 		this.amount = amount;
@@ -16,6 +26,11 @@ class WithdrawThread extends Thread{
 class DepositThread extends Thread{  
 	SavingsAccount savingsAccount;
 	float amount;
+	/**
+	 * 
+	 * @param savingsAccount
+	 * @param amount
+	 */
 	DepositThread(SavingsAccount savingsAccount, float amount){
 		this.savingsAccount = savingsAccount;
 		this.amount = amount;
@@ -27,6 +42,10 @@ class DepositThread extends Thread{
 }
 
 public class CobaThread{
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String args[]){
 		SavingsAccount savingsAccount = new SavingsAccount(2000);
 				
